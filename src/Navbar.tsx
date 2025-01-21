@@ -1,7 +1,6 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
     return (
@@ -25,11 +24,6 @@ const Navbar = () => {
                     <Link to="support" className="text-gray-700 hover:text-blue-500">Support</Link>
                     <Link to="signup" className="text-gray-700 hover:text-blue-500">Sign Up</Link>
                 </div>
-                {/* <div className="md:hidden flex items-center">
-                    <button className="text-gray-700 hover:text-blue-500" id="mobile-menu-toggle">
-                        <FontAwesomeIcon icon={faTimes} className="text-2xl" />
-                    </button>
-                </div> */}
             </div>
         </nav>
     );
